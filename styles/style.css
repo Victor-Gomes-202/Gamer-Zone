@@ -90,6 +90,7 @@ nav li a{
     background-repeat: no-repeat;
     background-size: contain;
     background-color: rgba(255, 255, 255, 1);
+    padding: 100px 0;
 }
 
 /* .banner-text-background{
@@ -109,7 +110,7 @@ nav li a{
 .banner-text h2{
     font-size: 4rem;
     font-weight: 900;
-    margin-bottom: 50px;
+    margin-bottom: 0;
 }
 button a{
     text-decoration: none;
@@ -125,7 +126,8 @@ button a{
 
 .icon-info{
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    align-items: center;
 }
 .icon-info p{
     margin-left: 15px;
@@ -274,4 +276,71 @@ button a{
     border: 3px solid white;
     margin-top: -150px;
     margin-left: 380px;
+}
+
+
+
+/* various-games */
+.various-games{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: 0.6s;
+    padding: 10px;
+}
+
+.various-games-section{
+    margin: 50px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.various-games:hover{
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    color: #FF42A5;
+    
+}
+
+
+/* footer section */
+footer{
+    
+}
+.footer-section{
+    background-color: #0B0223;
+    color: white;
+    margin: 0 auto;
+    padding: 50px 0;
+    /* display: flex;
+    justify-content: center; */
+
+}
+
+.services ul{
+    display: flex;
+    margin: 20px 0;
+}
+.services li{
+    list-style: none;
+    margin: 0 20px;
+}
+.services li a{
+    text-decoration: none;
+    color: white;
+    margin: 20px auto;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+.services i{
+    font-size: 2rem;
+}
+.small ul li, p{
+    font-size: 0.75rem;
+    font-weight: 200;
 }
